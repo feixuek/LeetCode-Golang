@@ -4,6 +4,8 @@
 | [0019](0019.remove-nth-node-from-end-of-list/README.md) | Remove Nth Node From End of List | Medium |
 | [0021](0021.merge-two-sorted-list/README.md) | Merge Two Sorted Lists | easy |
 | [0024](0024.swap-nodes-in-pairs/README.md) | Swap Nodes in Pairs | Medium | 
+| [0061](0061.rotate-list/README.md) | Rotate List | Medium | 
+| [0082](0082.remove-duplicates-from-sorted-list-ii/README.md) | Remove Duplicates from Sorted List II | Medium |
 | [0083](0083.remove-duplicates-from-sorted-list/README.md) | Remove Duplicates from Sorted List  | easy |
 | [0141](0141.linked-list-cycle/README.md) | Linked List Cycle | easy |
 | [0160](0160.intersection-of-two-linked-lists/README.md) | Intersection of Two Linked Lists | easy |

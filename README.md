@@ -8,6 +8,8 @@
 | [0019](LinkedList/0019.remove-nth-node-from-end-of-list/README.md) | Remove Nth Node From End of List | Medium |
 | [0021](LinkedList/0021.merge-two-sorted-list/README.md) | Merge Two Sorted Lists | easy |
 | [0024](LinkedList/0024.swap-nodes-in-pairs/README.md) | Swap Nodes in Pairs | Medium | 
+| [0061](LinkedList/0061.rotate-list/README.md) | Rotate List | Medium | 
+| [0082](LinkedList/0082.remove-duplicates-from-sorted-list-ii/README.md) | Remove Duplicates from Sorted List II | Medium 
 | [0083](LinkedList/0083.remove-duplicates-from-sorted-list/README.md) | Remove Duplicates from Sorted List  | easy |
 | [0141](LinkedList/0141.linked-list-cycle/README.md) | Linked List Cycle | easy |
 | [0160](LinkedList/0160.intersection-of-two-linked-lists/README.md) | Intersection of Two Linked Lists | easy |
@@ -34,4 +36,12 @@
 
 ## Queue
 
+| 题号 | 题目 | 难度 |
+| --- | --- | --- |
 | [0933](Queue/0933.number-of-recent-calls/README.md) | Number of Recent Calls | easy |
+
+## String
+
+| 题号 | 题目 | 难度 |
+| --- | --- | --- |
+| [0003](String/0003.longest-substring-without-repeating-characters/README.md) | Longest Substring Without Repeating Characters | Medium
