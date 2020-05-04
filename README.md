@@ -6,6 +6,12 @@
 | --- | --- | --- |
 | [0053](Array/0053.maximum-subarray/README.md) | Maximum Subarray | easy |
 
+## Greedy
+
+| 题号 | 题目 | 难度 |
+| --- | --- | --- |
+| [0045](Greedy/0045.jump-game-ii/) | Jump Game II | Hard |
+
 ## LinkedList
 
 | 题号 | 题目 | 难度 |
@@ -33,8 +39,14 @@
 
 | 题号 | 题目 | 难度 |
 | --- | --- | --- |
-| [0001](Map/0001.two-sum/README.md) | Two Sum | easy | 
-| [0136](Map/0136.single-number/README.md) | Single Number | easy |
+| [0001](Map/0001.two-sum/) | Two Sum | easy | 
+| [0136](Map/0136.single-number/) | Single Number | easy |
+| [0970](Map/0970.powerful-integers/) | Powerful Integers | easy |
+| [1002](Map/1002.find-common-characters/)  |Find Common Characters | easy |
+| [1078](Map/1078.occurrences-after-bigram/) |  Occurrences After Bigram | easy |
+| [1160](Map/1160.find-words-that-can-be-formed-by-characters/) | Find Words That Can Be Formed by Characters | easy |
+| [1189](Map/1189.maximum-number-of-balloons/) | Maximum Number of Balloons | easy |
+| [1207](Map/1207.unique-number-of-occurrences/) | Unique Number of Occurrences | easy |
 
 ## Queue
 
