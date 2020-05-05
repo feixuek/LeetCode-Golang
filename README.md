@@ -41,6 +41,14 @@
 | --- | --- | --- |
 | [0001](Map/0001.two-sum/) | Two Sum | easy | 
 | [0136](Map/0136.single-number/) | Single Number | easy |
+| [0409](Map/0409.longest-palindrome) | Longest Palindrome | easy |
+| [0500](Map/0500.keyboard-row) | Keyboard Row | easy |
+| [0575](Map/0575.distribute-candies) | Distribute Candies | easy |
+| [0599](Map/0599.minimum-index-sum-of-two-lists) | Minimum Index Sum of Two Lists | easy |
+| [0645](Map/0645.set-mismatch) | Set Mismatch | easy |
+| [0690](Map/0690.employee-importance) | Employee Importance | easy |
+| [0771](Map/0771.jewels-and-stones) | Jewels and Stones | easy |
+| [0961](Map/0961.n-repeated-element-in-size-2n-array) | N-Repeated Element in Size 2N Array | easy |
 | [0970](Map/0970.powerful-integers/) | Powerful Integers | easy |
 | [1002](Map/1002.find-common-characters/)  |Find Common Characters | easy |
 | [1078](Map/1078.occurrences-after-bigram/) |  Occurrences After Bigram | easy |
@@ -73,3 +81,9 @@
 | 题号 | 题目 | 难度 |
 | --- | --- | --- |
 | [0003](String/0003.longest-substring-without-repeating-characters/README.md) | Longest Substring Without Repeating Characters | Medium
+
+## Tree
+
+| 题号 | 题目 | 难度 |
+| --- | --- | --- |
+| [0098](Tree/0098.validate-binary-search-tree) | Validate Binary Search Tree | Medium |
