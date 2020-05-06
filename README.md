@@ -41,6 +41,10 @@
 | --- | --- | --- |
 | [0001](Map/0001.two-sum/) | Two Sum | easy | 
 | [0136](Map/0136.single-number/) | Single Number | easy |
+| [0242](Map/0242.valid-anagram) | Valid Anagram | easy |
+| [0349](Map/0349.intersection-of-two-arrays) | Intersection of Two Arrays | easy |
+| [0350](Map/0350.intersection-of-two-arrays-ii) | Intersection of Two Arrays II | easy |
+| [0389](Map/0389.find-the-difference) | Find the Difference | easy |
 | [0409](Map/0409.longest-palindrome) | Longest Palindrome | easy |
 | [0500](Map/0500.keyboard-row) | Keyboard Row | easy |
 | [0575](Map/0575.distribute-candies) | Distribute Candies | easy |
@@ -55,6 +59,7 @@
 | [1160](Map/1160.find-words-that-can-be-formed-by-characters/) | Find Words That Can Be Formed by Characters | easy |
 | [1189](Map/1189.maximum-number-of-balloons/) | Maximum Number of Balloons | easy |
 | [1207](Map/1207.unique-number-of-occurrences/) | Unique Number of Occurrences | easy |
+| [1365](Map/1365.how-many-numbers-are-smaller-than-the-current-number) | How Many Numbers Are Smaller Than the Current Number | easy |
 
 ## Queue
 
