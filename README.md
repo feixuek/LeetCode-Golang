@@ -104,7 +104,16 @@
 | [0257](Tree/0257.binary-tree-paths) | Binary Tree Paths | Easy |
 | [0404](Tree/0404.sum-of-left-leaves) | Sum of Left Leaves | Easy |
 | [0437](Tree/0437.path-sum-iii) | Path Sum III | Easy |
+| [0501](Tree/0501.find-mode-in-binary-search-tree) | Find Mode in Binary Search Tree | Easy |
+| [0530](Tree/0530.minimum-absolute-difference-in-bst) | Minimum Absolute Difference in BST | Easy |
+| [0538](Tree/0538.convert-bst-to-greater-tree) | Convert BST to Greater Tree | Easy |
 | [0559](Tree/0559.maximum-depth-of-n-ary-tree) | Maximum Depth of N-ary Tree | Easy |
+| [0572](Tree/0572.subtree-of-another-tree) | Subtree of Another Tree | Easy |
 | [0589](Tree/0589.n-ary-tree-preorder-traversal) | N-ary Tree Preorder Traversal | Easy |
 | [0590](Tree/0590.n-ary-tree-postorder-traversal) | N-ary Tree Postorder Traversal | Easy |
-| [0572](Tree/0572.subtree-of-another-tree) | Subtree of Another Tree | Easy |
+| [0700](0700.search-in-a-binary-search-tree) |  Search in a Binary Search Tree | Easy |
+| [0783](Tree/0783.minimum-distance-between-bst-nodes) | Minimum Distance Between BST Nodes | Easy |
+| [0872](Tree/0872.leaf-similar-trees) | Leaf-Similar Trees | Easy |
+| [0965](Tree/0965.univalued-binary-tree) | Univalued Binary Tree | Easy |
+| [0993](Tree/0993.cousins-in-binary-tree) | Cousins in Binary Tree | Easy | 
+| [1038](Tree/1038.binary-search-tree-to-greater-sum-tree) | Binary Search Tree to Greater Sum Tree | Medium | 
