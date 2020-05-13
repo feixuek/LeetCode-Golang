@@ -94,6 +94,7 @@
 | [0098](Tree/0098.validate-binary-search-tree) | Validate Binary Search Tree | Medium |
 | [0100](Tree/0100.same-tree) | Same Tree | Easy |
 | [0101](Tree/0101.symmetric-tree) | Symmetric Tree | Easy |
+| [0102](Tree/0102.binary-tree-level-order-traversal) | Binary Tree Level Order Traversal | Medium |
 | [0104](Tree/0104.maximum-depth-of-binary-tree) | Maximum Depth of Binary Tree | Easy |
 | [0107](Tree/0107.binary-tree-level-order-traversal-ii) | Binary Tree Level Order Traversal II | Easy |
 | [0110](Tree/0110.balanced-binary-tree ) |  Balanced Binary Tree | Easy |
@@ -107,11 +108,16 @@
 | [0501](Tree/0501.find-mode-in-binary-search-tree) | Find Mode in Binary Search Tree | Easy |
 | [0530](Tree/0530.minimum-absolute-difference-in-bst) | Minimum Absolute Difference in BST | Easy |
 | [0538](Tree/0538.convert-bst-to-greater-tree) | Convert BST to Greater Tree | Easy |
+| [0543](Tree/0543.diameter-of-binary-tree) | Diameter of Binary Tree | Easy |
 | [0559](Tree/0559.maximum-depth-of-n-ary-tree) | Maximum Depth of N-ary Tree | Easy |
+| [0563](Tree/0563.binary-tree-tilt) | Binary Tree Tilt | Easy |
 | [0572](Tree/0572.subtree-of-another-tree) | Subtree of Another Tree | Easy |
 | [0589](Tree/0589.n-ary-tree-preorder-traversal) | N-ary Tree Preorder Traversal | Easy |
 | [0590](Tree/0590.n-ary-tree-postorder-traversal) | N-ary Tree Postorder Traversal | Easy |
-| [0700](0700.search-in-a-binary-search-tree) |  Search in a Binary Search Tree | Easy |
+| [0617](Tree/0617.merge-two-binary-trees) | Merge Two Binary Trees | Easy |
+| [0637](Tree/0637.average-of-levels-in-binary-tree) | Average of Levels in Binary Tree | Easy |
+| [0653](Tree/0653.two-sum-iv-input-is-a-bst) | Two Sum IV - Input is a BST | Easy |
+| [0700](Tree/0700.search-in-a-binary-search-tree) |  Search in a Binary Search Tree | Easy |
 | [0783](Tree/0783.minimum-distance-between-bst-nodes) | Minimum Distance Between BST Nodes | Easy |
 | [0872](Tree/0872.leaf-similar-trees) | Leaf-Similar Trees | Easy |
 | [0965](Tree/0965.univalued-binary-tree) | Univalued Binary Tree | Easy |
