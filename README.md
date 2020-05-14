@@ -97,6 +97,7 @@
 | [0102](Tree/0102.binary-tree-level-order-traversal) | Binary Tree Level Order Traversal | Medium |
 | [0104](Tree/0104.maximum-depth-of-binary-tree) | Maximum Depth of Binary Tree | Easy |
 | [0107](Tree/0107.binary-tree-level-order-traversal-ii) | Binary Tree Level Order Traversal II | Easy |
+| [0108](Tree/0108.convert-sorted-array-to-binary-search-tree) | Convert Sorted Array to Binary Search Tree | Easy |
 | [0110](Tree/0110.balanced-binary-tree ) |  Balanced Binary Tree | Easy |
 | [0111](Tree/0111.minimum-depth-of-binary-tree) | Minimum Depth of Binary Tree | Easy |
 | [0112](Tree/0112.path-sum) | Path Sum | Easy |
@@ -114,12 +115,19 @@
 | [0572](Tree/0572.subtree-of-another-tree) | Subtree of Another Tree | Easy |
 | [0589](Tree/0589.n-ary-tree-preorder-traversal) | N-ary Tree Preorder Traversal | Easy |
 | [0590](Tree/0590.n-ary-tree-postorder-traversal) | N-ary Tree Postorder Traversal | Easy |
+| [0606](Tree/0606.construct-string-from-binary-tree) | Construct String from Binary Tree | Easy |
 | [0617](Tree/0617.merge-two-binary-trees) | Merge Two Binary Trees | Easy |
 | [0637](Tree/0637.average-of-levels-in-binary-tree) | Average of Levels in Binary Tree | Easy |
 | [0653](Tree/0653.two-sum-iv-input-is-a-bst) | Two Sum IV - Input is a BST | Easy |
+| [0669](Tree/0669.trim-a-binary-search-tree) | Trim a Binary Search Tree | Easy |
+| [0671](Tree/0671.second-minimum-node-in-a-binary-tree) | Second Minimum Node In a Binary Tree | Easy |
+| [0687](Tree/0687.longest-univalue-path) | Longest Univalue Path | Easy |
 | [0700](Tree/0700.search-in-a-binary-search-tree) |  Search in a Binary Search Tree | Easy |
 | [0783](Tree/0783.minimum-distance-between-bst-nodes) | Minimum Distance Between BST Nodes | Easy |
+| [0897](Tree/0897.increasing-order-search-tree) | Increasing Order Search Tree | Easy |
 | [0872](Tree/0872.leaf-similar-trees) | Leaf-Similar Trees | Easy |
+| [0938](Tree/0938.range-sum-of-bst) | Range Sum of BST | Easy |
 | [0965](Tree/0965.univalued-binary-tree) | Univalued Binary Tree | Easy |
 | [0993](Tree/0993.cousins-in-binary-tree) | Cousins in Binary Tree | Easy | 
+| [1022](Tree/1022.sum-of-root-to-leaf-binary-numbers) | Sum of Root To Leaf Binary Numbers | Easy |
 | [1038](Tree/1038.binary-search-tree-to-greater-sum-tree) | Binary Search Tree to Greater Sum Tree | Medium | 
