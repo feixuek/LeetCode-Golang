@@ -6,11 +6,15 @@
 | [0102](0102.binary-tree-level-order-traversal) | Binary Tree Level Order Traversal | Medium |
 | [0103](0103.binary-tree-zigzag-level-order-traversal) | Binary Tree Zigzag Level Order Traversal | Medium |
 | [0104](0104.maximum-depth-of-binary-tree) | Maximum Depth of Binary Tree | Easy |
+| [0105](0105.construct-binary-tree-from-preorder-and-inorder-traversal) | Construct Binary Tree from Preorder and Inorder Traversal | Medium |
+| [0106](0106.construct-binary-tree-from-inorder-and-postorder-traversal) | Construct Binary Tree from Inorder and Postorder Traversal | Medium |
 | [0107](0107.binary-tree-level-order-traversal-ii) | Binary Tree Level Order Traversal II | Easy |
 | [0108](0108.convert-sorted-array-to-binary-search-tree) | Convert Sorted Array to Binary Search Tree | Easy |
 | [0110](0110.balanced-binary-tree ) |  Balanced Binary Tree | Easy |
 | [0111](0111.minimum-depth-of-binary-tree) | Minimum Depth of Binary Tree | Easy |
 | [0112](0112.path-sum) | Path Sum | Easy |
+| [0116](0116.populating-next-right-pointers-in-each-node) | Populating Next Right Pointers in Each Node | Medium |
+| [0117](0117.populating-next-right-pointers-in-each-node-ii) | Populating Next Right Pointers in Each Node II | Medium |
 | [0199](0199.binary-tree-right-side-view) | Binary Tree Right Side View | Medium |
 | [0222](0222.count-complete-tree-nodes) | Count Complete Tree Nodes | Medium |
 | [0226](0226.invert-binary-tree) | Invert Binary Tree | Easy |
@@ -32,6 +36,7 @@
 | [0590](0590.n-ary-tree-postorder-traversal) | N-ary Tree Postorder Traversal | Easy |
 | [0606](0606.construct-string-from-binary-tree) | Construct String from Binary Tree | Easy |
 | [0617](0617.merge-two-binary-trees) | Merge Two Binary Trees | Easy |
+| [0623](0623.add-one-row-to-tree) | Add One Row to Tree | Medium |
 | [0637](0637.average-of-levels-in-binary-tree) | Average of Levels in Binary Tree | Easy |
 | [0653](0653.two-sum-iv-input-is-a-bst) | Two Sum IV - Input is a BST | Easy |
 | [0654](0654.maximum-binary-tree) | Maximum Binary Tree | Medium |
@@ -39,6 +44,7 @@
 | [0671](0671.second-minimum-node-in-a-binary-tree) | Second Minimum Node In a Binary Tree | Easy |
 | [0687](0687.longest-univalue-path) | Longest Univalue Path | Easy |
 | [0700](0700.search-in-a-binary-search-tree) |  Search in a Binary Search Tree | Easy |
+| [0701](0701.insert-into-a-binary-search-tree) | Insert into a Binary Search Tree | Medium |
 | [0783](0783.minimum-distance-between-bst-nodes) | Minimum Distance Between BST Nodes | Easy |
 | [0872](0872.leaf-similar-trees) | Leaf-Similar Trees | Easy |
 | [0897](0897.increasing-order-search-tree) | Increasing Order Search Tree | Easy |
