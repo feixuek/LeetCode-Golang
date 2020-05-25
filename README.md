@@ -10,7 +10,11 @@
 
 | 题号 | 题目 | 难度 |
 | --- | --- | --- |
+| [0070](DP/0070.climbing-stairs) | Climbing Stairs | Easy |
+| [0121](DP/0121.best-time-to-buy-and-sell-stock) | Best Time to Buy and Sell Stock | Easy |
+| [0198](DP/0198.house-robber) | House Robber | Easy |
 | [0302](DP/0302.coin-change) | Coin Change | Medium |
+| [0303](DP/0303.range-sum-query-immutable) | Range Sum Query - Immutable | Easy |
 
 ## Greedy
 
@@ -112,9 +116,11 @@
 | [0112](Tree/0112.path-sum) | Path Sum | Easy |
 | [0116](Tree/0116.populating-next-right-pointers-in-each-node) | Populating Next Right Pointers in Each Node | Medium |
 | [0117](Tree/0117.populating-next-right-pointers-in-each-node-ii) | Populating Next Right Pointers in Each Node II | Medium |
+| [0173](Tree/0173.binary-search-tree-iterator) | Binary Search Tree Iterator | Medium |
 | [0199](Tree/0199.binary-tree-right-side-view) | Binary Tree Right Side View | Medium |
 | [0222](Tree/0222.count-complete-tree-nodes) | Count Complete Tree Nodes | Medium |
 | [0226](Tree/0226.invert-binary-tree) | Invert Binary Tree | Easy |
+| [0230](Tree/0230.kth-smallest-element-in-a-bst) | Kth Smallest Element in a BST | Medium |
 | [0235](Tree/0235.lowest-common-ancestor-of-a-binary-search-tree) | Lowest Common Ancestor of a Binary Search Tree | Easy | 
 | [0257](Tree/0257.binary-tree-paths) | Binary Tree Paths | Easy |
 | [0404](Tree/0404.sum-of-left-leaves) | Sum of Left Leaves | Easy |
