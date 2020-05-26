@@ -15,6 +15,8 @@
 | [0198](DP/0198.house-robber) | House Robber | Easy |
 | [0302](DP/0302.coin-change) | Coin Change | Medium |
 | [0303](DP/0303.range-sum-query-immutable) | Range Sum Query - Immutable | Easy |
+| [0392](DP/0392.is-subsequence) | Is Subsequence | Easy |
+| [0746](DP/0746.min-cost-climbing-stairs) | Min Cost Climbing Stairs | Easy |
 
 ## Greedy
 
@@ -126,6 +128,7 @@
 | [0404](Tree/0404.sum-of-left-leaves) | Sum of Left Leaves | Easy |
 | [0429](Tree/0429.n-ary-tree-level-order-traversal) | N-ary Tree Level Order Traversal | Medium |
 | [0437](Tree/0437.path-sum-iii) | Path Sum III | Easy |
+| [0450](Tree/0450.delete-node-in-a-bst) | Delete Node in a BST | Medium |
 | [0501](Tree/0501.find-mode-in-binary-search-tree) | Find Mode in Binary Search Tree | Easy |
 | [0513](Tree/0513.find-bottom-left-tree-value) | Find Bottom Left Tree Value | Medium |
 | [0515](Tree/0515.find-largest-value-in-each-tree-row) | Find Largest Value in Each Tree Row | Medium |
@@ -156,3 +159,9 @@
 | [0993](Tree/0993.cousins-in-binary-tree) | Cousins in Binary Tree | Easy | 
 | [1022](Tree/1022.sum-of-root-to-leaf-binary-numbers) | Sum of Root To Leaf Binary Numbers | Easy |
 | [1038](Tree/1038.binary-search-tree-to-greater-sum-tree) | Binary Search Tree to Greater Sum Tree | Medium | 
+
+## Two Pointers
+
+| 题号 | 题目 | 难度 |
+| --- | --- | --- |
+| [0287](TwoPointers/0287.find-the-duplicate-number) | Find the Duplicate Number | Medium |

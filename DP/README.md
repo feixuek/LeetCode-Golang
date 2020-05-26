@@ -5,3 +5,5 @@
 | [0198](0198.house-robber) | House Robber | Easy |
 | [0302](0302.coin-change) | Coin Change | Medium |
 | [0303](0303.range-sum-query-immutable) | Range Sum Query - Immutable | Easy |
+| [0392](0392.is-subsequence) | Is Subsequence | Easy |
+| [0746](0746.min-cost-climbing-stairs) | Min Cost Climbing Stairs | Easy |

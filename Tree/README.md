@@ -25,6 +25,7 @@
 | [0404](0404.sum-of-left-leaves) | Sum of Left Leaves | Easy |
 | [0429](0429.n-ary-tree-level-order-traversal) | N-ary Tree Level Order Traversal | Medium |
 | [0437](0437.path-sum-iii) | Path Sum III | Easy |
+| [0450](0450.delete-node-in-a-bst) | Delete Node in a BST | Medium |
 | [0501](0501.find-mode-in-binary-search-tree) | Find Mode in Binary Search Tree | Easy |
 | [0513](0513.find-bottom-left-tree-value) | Find Bottom Left Tree Value | Medium |
 | [0515](0515.find-largest-value-in-each-tree-row) | Find Largest Value in Each Tree Row | Medium |
