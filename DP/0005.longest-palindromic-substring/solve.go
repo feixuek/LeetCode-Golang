@@ -1,19 +1,19 @@
 func longestPalindrome(s string) string {
-	res := ""
+	var res string
 	for i := 0; i < len(s); i++ {
-		s1 := helper(s, i, i)
-		s2 := helper(s, i, i+1)
-		if len(s1) > len(res) {
-			res = s1
+		si := palindrome(s, i, i)
+		si1 := palindrome(s, i, i+1)
+		if len(si) < len(si1) {
+			si = si1
 		}
-		if len(s2) > len(res) {
-			res = s2
+		if len(res) < len(si) {
+			res = si
 		}
 	}
 	return res
 }
 
-func helper(s string, start, end int) string {
+func palindrome(s string, start, end int) string {
 	for start >= 0 && end < len(s) && s[start] == s[end] {
 		start--
 		end++

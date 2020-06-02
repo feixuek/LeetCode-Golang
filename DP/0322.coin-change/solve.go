@@ -1,32 +1,21 @@
-const (
-	c = 1 << 32
-)
-
 func coinChange(coins []int, amount int) int {
-	if amount == 0 {
-		return 0
+	dp := make([]int, amount+1)
+	for i := 1; i < len(dp); i++ {
+		dp[i] = 1 << 32
 	}
-	if amount < 0 {
-		return -1
-	}
-	ret := make([]int, amount+1)
-	ret[0] = 0
-	for i := 1; i < len(ret); i++ {
-		ret[i] = c
-	}
-	for i := 0; i < len(ret); i++ {
+	for i := 0; i < len(dp); i++ {
 		for _, v := range coins {
-			sub := i - v
-			if sub < 0 {
+			idx := i - v
+			if idx < 0 {
 				continue
 			}
-			ret[i] = min(ret[i], ret[sub]+1)
+			dp[i] = min(dp[idx]+1, dp[i])
 		}
 	}
-	if ret[amount] == c {
+	if dp[amount] == 1<<32 {
 		return -1
 	}
-	return ret[amount]
+	return dp[amount]
 }
 
 func min(x, y int) int {
