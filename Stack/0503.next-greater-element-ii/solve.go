@@ -31,27 +31,19 @@ func (s *Stack) Len() int {
 	return len(s.Data)
 }
 
-func nextGreaterElement(nums1 []int, nums2 []int) []int {
+func nextGreaterElements(nums []int) []int {
 	stack := new(Stack)
-	set := make(map[int]int)
-	for i := len(nums2) - 1; i >= 0; i-- {
-		for !stack.Empty() && nums2[i] > stack.Top() {
+	ret := make([]int, len(nums))
+	for i := len(nums)*2 - 1; i >= 0; i-- {
+		for !stack.Empty() && nums[i%len(nums)] >= stack.Top() {
 			stack.Pop()
 		}
 		if stack.Empty() {
-			set[nums2[i]] = -1
+			ret[i%len(nums)] = -1
 		} else {
-			set[nums2[i]] = stack.Top()
+			ret[i%len(nums)] = stack.Top()
 		}
-		stack.Push(nums2[i])
-	}
-	ret := make([]int, len(nums1))
-	for i := 0; i < len(nums1); i++ {
-		if v, ok := set[nums1[i]]; ok {
-			ret[i] = v
-		} else {
-			ret[i] = -1
-		}
+		stack.Push(nums[i%len(nums)])
 	}
 	return ret
 }

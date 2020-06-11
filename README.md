@@ -5,6 +5,7 @@
 | 题号 | 题目 | 难度 |
 | --- | --- | --- |
 | [0053](Array/0053.maximum-subarray) | Maximum Subarray | Easy |
+| [0509](Array/0509.fibonacci-number) | Fibonacci Number | Easy |
 | [1431](Array/1431.kids-with-the-greatest-number-of-candies) | Kids With the Greatest Number of Candies | Easy | 
 
 ## DP
@@ -18,6 +19,7 @@
 | [0070](DP/0070.climbing-stairs) | Climbing Stairs | Easy |
 | [0121](DP/0121.best-time-to-buy-and-sell-stock) | Best Time to Buy and Sell Stock | Easy |
 | [0198](DP/0198.house-robber) | House Robber | Easy |
+| [0213](DP/0213.house-robber-ii) | House Robber II | Medium |
 | [0300](DP/0300.longest-increasing-subsequence) | Longest Increasing Subsequence | Medium |
 | [0303](DP/0303.range-sum-query-immutable) | Range Sum Query - Immutable | Easy |
 | [0322](DP/0302.coin-change) | Coin Change | Medium |
@@ -25,6 +27,8 @@
 | [0416](DP/0416.partition-equal-subset-sum) | Partition Equal Subset Sum | Medium |
 | [0516](DP/0516.longest-palindromic-subsequence) | Longest Palindromic Subsequence | Medium |
 | [0746](DP/0746.min-cost-climbing-stairs) | Min Cost Climbing Stairs | Easy |
+| [0837](DP/0837.new-21-game) | New 21 Game | Medium |
+| [0887](DP/0887.super-egg-drop) | Super Egg Drop | Hard |
 | [1143](DP/1143.longest-common-subsequence) | Longest Common Subsequence | Medium |
 
 ## Greedy
@@ -98,10 +102,13 @@
 | [0232](Stack/0232.implement-queue-using-stacks/README.md) | Implement Queue using Stacks | Easy |
 | [0394](Stack/0394.decode-string) | Decode String | Medium |
 | [0496](Stack/0496.next-greater-element-i/README.md) | Next Greater Element I | Easy |
+| [0503](Stack/0503.next-greater-element-ii) | Next Greater Element II | Medium |
 | [0682](Stack/0682.baseball-game/README.md) | Baseball Game | Easy | 
+| [0739](Stack/0739.daily-temperatures) | Daily Temperatures | Medium |
 | [0844](Stack/0844.backspace-string-compare/README.md) | Backspace String Compare | Easy | 
 | [1021](Stack/1021.remove-outermost-parentheses/README.md) | Remove Outermost Parentheses | Easy | 
 | [1047](Stack/1047.remove-all-adjacent-duplicates-in-string/README.md) | Remove All Adjacent Duplicates In String | Easy |
+| [1441](Stack/1441.build-an-array-with-stack-operations) | Build an Array With Stack Operations | Easy |
 
 ## String
 

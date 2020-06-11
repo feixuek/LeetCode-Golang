@@ -31,27 +31,19 @@ func (s *Stack) Len() int {
 	return len(s.Data)
 }
 
-func nextGreaterElement(nums1 []int, nums2 []int) []int {
+func dailyTemperatures(T []int) []int {
 	stack := new(Stack)
-	set := make(map[int]int)
-	for i := len(nums2) - 1; i >= 0; i-- {
-		for !stack.Empty() && nums2[i] > stack.Top() {
+	res := make([]int, len(T))
+	for i := len(T) - 1; i >= 0; i-- {
+		for !stack.Empty() && T[i] >= T[stack.Top()] {
 			stack.Pop()
 		}
 		if stack.Empty() {
-			set[nums2[i]] = -1
+			res[i] = 0
 		} else {
-			set[nums2[i]] = stack.Top()
+			res[i] = stack.Top() - i
 		}
-		stack.Push(nums2[i])
+		stack.Push(i)
 	}
-	ret := make([]int, len(nums1))
-	for i := 0; i < len(nums1); i++ {
-		if v, ok := set[nums1[i]]; ok {
-			ret[i] = v
-		} else {
-			ret[i] = -1
-		}
-	}
-	return ret
+	return res
 }
