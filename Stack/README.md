@@ -1,6 +1,8 @@
 | 题号 | 题目 | 难度 |
 | --- | --- | --- |
 | [0020](0020.valid-parentheses/README.md) | Valid Parentheses | Easy |
+| [0071](0071.simplify-path) | Simplify Path | Medium |
+| [0150](0150.evaluate-reverse-polish-notation) | Evaluate Reverse Polish Notation | Medium |
 | [0155](0155.min-stack/README.md) |  Min Stack | Easy | 
 | [0225](0225.implement-stack-using-queues/README.md) | Implement Stack using Queues | Easy | 
 | [0232](0232.implement-queue-using-stacks/README.md) | Implement Queue using Stacks | Easy |

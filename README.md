@@ -4,6 +4,8 @@
 
 | 题号 | 题目 | 难度 |
 | --- | --- | --- |
+| [0015](Array/0015.3sum) | 3Sum | Medium |
+| [0018](Array/0018.4sum) | 4sum | Medium |
 | [0053](Array/0053.maximum-subarray) | Maximum Subarray | Easy |
 | [0509](Array/0509.fibonacci-number) | Fibonacci Number | Easy |
 | [1431](Array/1431.kids-with-the-greatest-number-of-candies) | Kids With the Greatest Number of Candies | Easy | 
@@ -97,6 +99,8 @@
 | 题号 | 题目 | 难度 |
 | --- | --- | --- |
 | [0020](Stack/0020.valid-parentheses/README.md) | Valid Parentheses | Easy |
+| [0071](Stack/0071.simplify-path) | Simplify Path | Medium |
+| [0150](Stack/0150.evaluate-reverse-polish-notation) | Evaluate Reverse Polish Notation | Medium |
 | [0155](Stack/0155.min-stack/README.md) |  Min Stack | Easy | 
 | [0225](Stack/0225.implement-stack-using-queues/README.md) | Implement Stack using Queues | Easy | 
 | [0232](Stack/0232.implement-queue-using-stacks/README.md) | Implement Queue using Stacks | Easy |
