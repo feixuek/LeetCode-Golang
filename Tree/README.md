@@ -13,8 +13,11 @@
 | [0110](0110.balanced-binary-tree ) |  Balanced Binary Tree | Easy |
 | [0111](0111.minimum-depth-of-binary-tree) | Minimum Depth of Binary Tree | Easy |
 | [0112](0112.path-sum) | Path Sum | Easy |
+| [0113](0113.path-sum-ii) | Path Sum II | Medium |
+| [0114](0114.flatten-binary-tree-to-linked-list) | Flatten Binary Tree to Linked List | Medium |
 | [0116](0116.populating-next-right-pointers-in-each-node) | Populating Next Right Pointers in Each Node | Medium |
 | [0117](0117.populating-next-right-pointers-in-each-node-ii) | Populating Next Right Pointers in Each Node II | Medium |
+| [0129](0129.sum-root-to-leaf-numbers) | Sum Root to Leaf Numbers | Medium |
 | [0173](0173.binary-search-tree-iterator) | Binary Search Tree Iterator | Medium |
 | [0199](0199.binary-tree-right-side-view) | Binary Tree Right Side View | Medium |
 | [0222](0222.count-complete-tree-nodes) | Count Complete Tree Nodes | Medium |
@@ -27,6 +30,7 @@
 | [0437](0437.path-sum-iii) | Path Sum III | Easy |
 | [0450](0450.delete-node-in-a-bst) | Delete Node in a BST | Medium |
 | [0501](0501.find-mode-in-binary-search-tree) | Find Mode in Binary Search Tree | Easy |
+| [0508](0508.most-frequent-subtree-sum) | Most Frequent Subtree Sum | Medium |
 | [0513](0513.find-bottom-left-tree-value) | Find Bottom Left Tree Value | Medium |
 | [0515](0515.find-largest-value-in-each-tree-row) | Find Largest Value in Each Tree Row | Medium |
 | [0530](0530.minimum-absolute-difference-in-bst) | Minimum Absolute Difference in BST | Easy |
@@ -43,6 +47,7 @@
 | [0637](0637.average-of-levels-in-binary-tree) | Average of Levels in Binary Tree | Easy |
 | [0653](0653.two-sum-iv-input-is-a-bst) | Two Sum IV - Input is a BST | Easy |
 | [0654](0654.maximum-binary-tree) | Maximum Binary Tree | Medium |
+| [0662](0662.maximum-width-of-binary-tree) | Maximum Width of Binary Tree | Medium |
 | [0669](0669.trim-a-binary-search-tree) | Trim a Binary Search Tree | Easy |
 | [0671](0671.second-minimum-node-in-a-binary-tree) | Second Minimum Node In a Binary Tree | Easy |
 | [0687](0687.longest-univalue-path) | Longest Univalue Path | Easy |
@@ -56,3 +61,4 @@
 | [0993](0993.cousins-in-binary-tree) | Cousins in Binary Tree | Easy |
 | [1022](1022.sum-of-root-to-leaf-binary-numbers) | Sum of Root To Leaf Binary Numbers | Easy |
 | [1038](1038.binary-search-tree-to-greater-sum-tree) | Binary Search Tree to Greater Sum Tree | Medium | 
+| [1609](1609.even-odd-tree) | Even Odd Tree | Medium | 
