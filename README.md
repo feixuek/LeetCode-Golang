@@ -189,13 +189,22 @@
 | [0700](Tree/0700.search-in-a-binary-search-tree) |  Search in a Binary Search Tree | Easy |
 | [0701](Tree/0701.insert-into-a-binary-search-tree) | Insert into a Binary Search Tree | Medium |
 | [0783](Tree/0783.minimum-distance-between-bst-nodes) | Minimum Distance Between BST Nodes | Easy |
+| [0814](Tree/0814.binary-tree-pruning) | Binary Tree Pruning | Medium |
 | [0897](Tree/0897.increasing-order-search-tree) | Increasing Order Search Tree | Easy |
 | [0872](Tree/0872.leaf-similar-trees) | Leaf-Similar Trees | Easy |
 | [0938](Tree/0938.range-sum-of-bst) | Range Sum of BST | Easy |
+| [0958](Tree/0958.check-completeness-of-a-binary-tree) | Check Completeness of a Binary Tree | Medium |
 | [0965](Tree/0965.univalued-binary-tree) | Univalued Binary Tree | Easy |
 | [0993](Tree/0993.cousins-in-binary-tree) | Cousins in Binary Tree | Easy | 
 | [1022](Tree/1022.sum-of-root-to-leaf-binary-numbers) | Sum of Root To Leaf Binary Numbers | Easy |
 | [1038](Tree/1038.binary-search-tree-to-greater-sum-tree) | Binary Search Tree to Greater Sum Tree | Medium | 
+| [1161](Tree/1161.maximum-level-sum-of-a-binary-tree) | Maximum Level Sum of a Binary Tree | Medium |
+| [1261](Tree/1261.find-elements-in-a-contaminated-binary-tree) | Find Elements in a Contaminated Binary Tree | Medium |
+| [1302](Tree/1302.deepest-leaves-sum) | Deepest Leaves Sum | Medium |
+| [1315](Tree/1315.sum-of-nodes-with-even-valued-grandparent) | Sum of Nodes with Even-Valued Grandparent | Medium | 
+| [1367](Tree/1367.linked-list-in-binary-tree) | Linked List in Binary Tree | Medium |
+| [1372](Tree/1372.longest-zigzag-path-in-a-binary-tree) | Longest ZigZag Path in a Binary Tree | Medium |
+| [1448](Tree/1448.count-good-nodes-in-binary-tree) | Count Good Nodes in Binary Tree | Medium |
 | [1609](Tree/1609.even-odd-tree) | Even Odd Tree | Medium | 
 
 ## Two Pointers
