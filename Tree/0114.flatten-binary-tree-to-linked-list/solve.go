@@ -2,15 +2,19 @@ func flatten(root *TreeNode) {
 	if root == nil {
 		return
 	}
-	left := root.Left
-	root.Left = nil
-	tmp := left
-	if tmp != nil {
-		for tmp.Right != nil {
-			tmp = tmp.Right
-		}
-		tmp.Right = root.Right
-		root.Right = left
-	}
+	flatten(root.Left)
 	flatten(root.Right)
+	left := root.Left
+	right := root.Right
+	root.Left = nil
+	root.Right = left
+	if root.Right != nil {
+		target := root.Right
+		for target != nil && target.Right != nil {
+			target = target.Right
+		}
+		target.Right = right
+	} else {
+		root.Right = right
+	}
 }

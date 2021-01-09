@@ -159,7 +159,9 @@
 | [0226](Tree/0226.invert-binary-tree) | Invert Binary Tree | Easy |
 | [0230](Tree/0230.kth-smallest-element-in-a-bst) | Kth Smallest Element in a BST | Medium |
 | [0235](Tree/0235.lowest-common-ancestor-of-a-binary-search-tree) | Lowest Common Ancestor of a Binary Search Tree | Easy | 
+| [0236](Tree/0236.lowest-common-ancestor-of-a-binary-tree) | Lowest Common Ancestor of a Binary Tree | Medium |
 | [0257](Tree/0257.binary-tree-paths) | Binary Tree Paths | Easy |
+| [0297](Tree/0297.serialize-and-deserialize-binary-tree) | Serialize and Deserialize Binary Tree | Hard | 
 | [0404](Tree/0404.sum-of-left-leaves) | Sum of Left Leaves | Easy |
 | [0429](Tree/0429.n-ary-tree-level-order-traversal) | N-ary Tree Level Order Traversal | Medium |
 | [0437](Tree/0437.path-sum-iii) | Path Sum III | Easy |
@@ -175,33 +177,45 @@
 | [0563](Tree/0563.binary-tree-tilt) | Binary Tree Tilt | Easy |
 | [0572](Tree/0572.subtree-of-another-tree) | Subtree of Another Tree | Easy |
 | [0589](Tree/0589.n-ary-tree-preorder-traversal) | N-ary Tree Preorder Traversal | Easy |
-| [0590](Tree/0590.n-ary-tree-postorder-traversal) | N-ary Tree Postorder Traversal | Easy |
+| [0590](Tree/0590.n-ary-tree-postorder-traversal) | N-ar|
+y Tree Postorder Traversal | Easy |
 | [0606](Tree/0606.construct-string-from-binary-tree) | Construct String from Binary Tree | Easy |
 | [0617](Tree/0617.merge-two-binary-trees) | Merge Two Binary Trees | Easy |
 | [0623](Tree/0623.add-one-row-to-tree) | Add One Row to Tree | Medium |
 | [0637](Tree/0637.average-of-levels-in-binary-tree) | Average of Levels in Binary Tree | Easy |
+| [0652](Tree/0652.find-duplicate-subtrees) | Find Duplicate Subtrees | Medium |
 | [0653](Tree/0653.two-sum-iv-input-is-a-bst) | Two Sum IV - Input is a BST | Easy |
 | [0654](Tree/0654.maximum-binary-tree) | Maximum Binary Tree | Medium |
-| [0662](Tree/0662.maximum-width-of-binary-tree) | Maximum Width of Binary Tree | Medium |
-| [0669](Tree/0669.trim-a-binary-search-tree) | Trim a Binary Search Tree | Easy |
+| [0655](Tree/0655.print-binary-tree) | Print Binary Tree | Medium |
+| [0662](Tree/0662.maximum-width-of-binary-tree) | Maximum Width of Binary Tree | Medium | [0669](Tree/0669.trim-a-binary-search-tree) | Trim a Binary Search Tree | Easy |
 | [0671](Tree/0671.second-minimum-node-in-a-binary-tree) | Second Minimum Node In a Binary Tree | Easy |
 | [0687](Tree/0687.longest-univalue-path) | Longest Univalue Path | Easy |
 | [0700](Tree/0700.search-in-a-binary-search-tree) |  Search in a Binary Search Tree | Easy |
 | [0701](Tree/0701.insert-into-a-binary-search-tree) | Insert into a Binary Search Tree | Medium |
 | [0783](Tree/0783.minimum-distance-between-bst-nodes) | Minimum Distance Between BST Nodes | Easy |
 | [0814](Tree/0814.binary-tree-pruning) | Binary Tree Pruning | Medium |
+| [0863](Tree/0863.all-nodes-distance-k-in-binary-tree) | All Nodes Distance K in Binary Tree | Medium |
 | [0897](Tree/0897.increasing-order-search-tree) | Increasing Order Search Tree | Easy |
 | [0872](Tree/0872.leaf-similar-trees) | Leaf-Similar Trees | Easy |
+| [0889](Tree/0889.construct-binary-tree-from-preorder-and-postorder-traversal) | Construct Binary Tree from Preorder and Postorder Traversal | Medium |
 | [0938](Tree/0938.range-sum-of-bst) | Range Sum of BST | Easy |
+| [0951](Tree/0951.flip-equivalent-binary-trees) | Flip Equivalent Binary Trees | Medium |
 | [0958](Tree/0958.check-completeness-of-a-binary-tree) | Check Completeness of a Binary Tree | Medium |
 | [0965](Tree/0965.univalued-binary-tree) | Univalued Binary Tree | Easy |
+| [0987](Tree/0987.vertical-order-traversal-of-a-binary-tree) |  Vertical Order Traversal of a Binary Tree | Medium |
 | [0993](Tree/0993.cousins-in-binary-tree) | Cousins in Binary Tree | Easy | 
+| [0998](Tree/0998.maximum-binary-tree-ii) | Maximum Binary Tree II | Medium |
+| [1008](Tree/1008.construct-binary-search-tree-from-preorder-traversal) | Medium |
 | [1022](Tree/1022.sum-of-root-to-leaf-binary-numbers) | Sum of Root To Leaf Binary Numbers | Easy |
+| [1026](Tree/1026.maximum-difference-between-node-and-ancestor) | Maximum Difference Between Node and Ancestor | Medium |
 | [1038](Tree/1038.binary-search-tree-to-greater-sum-tree) | Binary Search Tree to Greater Sum Tree | Medium | 
+| [1110](Tree/1110.delete-nodes-and-return-forest) | Delete Nodes And Return Forest | Medium |
 | [1161](Tree/1161.maximum-level-sum-of-a-binary-tree) | Maximum Level Sum of a Binary Tree | Medium |
 | [1261](Tree/1261.find-elements-in-a-contaminated-binary-tree) | Find Elements in a Contaminated Binary Tree | Medium |
 | [1302](Tree/1302.deepest-leaves-sum) | Deepest Leaves Sum | Medium |
+| [1305](Tree/1305.all-elements-in-two-binary-search-trees) | All Elements in Two Binary Search Trees | Medium |
 | [1315](Tree/1315.sum-of-nodes-with-even-valued-grandparent) | Sum of Nodes with Even-Valued Grandparent | Medium | 
+| [1325](Tree/1325.delete-leaves-with-a-given-value) | Delete Leaves With a Given Value | Medium |
 | [1367](Tree/1367.linked-list-in-binary-tree) | Linked List in Binary Tree | Medium |
 | [1372](Tree/1372.longest-zigzag-path-in-a-binary-tree) | Longest ZigZag Path in a Binary Tree | Medium |
 | [1448](Tree/1448.count-good-nodes-in-binary-tree) | Count Good Nodes in Binary Tree | Medium |
