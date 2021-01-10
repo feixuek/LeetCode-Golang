@@ -10,6 +10,20 @@
 | [0509](Array/0509.fibonacci-number) | Fibonacci Number | Easy |
 | [1431](Array/1431.kids-with-the-greatest-number-of-candies) | Kids With the Greatest Number of Candies | Easy | 
 
+## Backtracking
+
+| 题号 | 题目 | 难度 |
+| --- | --- | --- |
+| [0017](Backtracking/0017.letter-combinations-of-a-phone-number)| Letter Combinations of a Phone Number | Medium |
+| [0039](Backtracking/0039.combination-sum) | Combination Sum | Medium |
+| [0040](Backtracking/0040.combination-sum-ii) | Combination Sum II | Medium |
+| [0046](Backtracking/0046.permutations) | Permutations | Medium |
+| [0047](Backtracking/0047.permutations-ii) | Permutations II | Medium |
+| [0077](Backtracking/0077.combinations) | Combinations | Medium |
+| [0078](Backtracking/0078.subsets) | Subsets | Medium |
+| [0401](Backtracking/0401.binary-watch) | Binary Watch |Easy |
+| [1688](Backtracking/1688.count-of-matches-in-tournament) | Count of Matches in Tournament | Easy |
+
 ## DP
 
 | 题号 | 题目 | 难度 |
@@ -177,8 +191,7 @@
 | [0563](Tree/0563.binary-tree-tilt) | Binary Tree Tilt | Easy |
 | [0572](Tree/0572.subtree-of-another-tree) | Subtree of Another Tree | Easy |
 | [0589](Tree/0589.n-ary-tree-preorder-traversal) | N-ary Tree Preorder Traversal | Easy |
-| [0590](Tree/0590.n-ary-tree-postorder-traversal) | N-ar|
-y Tree Postorder Traversal | Easy |
+| [0590](Tree/0590.n-ary-tree-postorder-traversal) | N-ary Tree Postorder Traversal | Easy |
 | [0606](Tree/0606.construct-string-from-binary-tree) | Construct String from Binary Tree | Easy |
 | [0617](Tree/0617.merge-two-binary-trees) | Merge Two Binary Trees | Easy |
 | [0623](Tree/0623.add-one-row-to-tree) | Add One Row to Tree | Medium |
@@ -187,7 +200,8 @@ y Tree Postorder Traversal | Easy |
 | [0653](Tree/0653.two-sum-iv-input-is-a-bst) | Two Sum IV - Input is a BST | Easy |
 | [0654](Tree/0654.maximum-binary-tree) | Maximum Binary Tree | Medium |
 | [0655](Tree/0655.print-binary-tree) | Print Binary Tree | Medium |
-| [0662](Tree/0662.maximum-width-of-binary-tree) | Maximum Width of Binary Tree | Medium | [0669](Tree/0669.trim-a-binary-search-tree) | Trim a Binary Search Tree | Easy |
+| [0662](Tree/0662.maximum-width-of-binary-tree) | Maximum Width of Binary Tree | Medium |
+| [0669](Tree/0669.trim-a-binary-search-tree) | Trim a Binary Search Tree | Easy |
 | [0671](Tree/0671.second-minimum-node-in-a-binary-tree) | Second Minimum Node In a Binary Tree | Easy |
 | [0687](Tree/0687.longest-univalue-path) | Longest Univalue Path | Easy |
 | [0700](Tree/0700.search-in-a-binary-search-tree) |  Search in a Binary Search Tree | Easy |
