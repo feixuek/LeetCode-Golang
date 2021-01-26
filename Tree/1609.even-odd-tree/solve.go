@@ -1,70 +1,37 @@
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
-
-type Queue struct {
-	data []*TreeNode
-}
-
-func (q *Queue) Enqueue(elem *TreeNode) {
-	q.data = append(q.data, elem)
-}
-
-func (q *Queue) Dequeue() *TreeNode {
-	if q.Empty() {
-		return nil
-	}
-	elem := q.data[0]
-	q.data = q.data[1:]
-	return elem
-}
-
-func (q *Queue) Empty() bool {
-	return len(q.data) == 0
-}
-
 func isEvenOddTree(root *TreeNode) bool {
-	q := new(Queue)
-	help := new(Queue)
-	q.Enqueue(root)
-	level := 1
-	for !q.Empty() || !help.Empty() {
-		switch {
-		case !q.Empty():
-			var pre *TreeNode
-			for !q.Empty() {
-				elem := q.Dequeue()
-				if level%2 == 0 {
-					if elem.Val%2 != 0 {
-						return false
-					}
-					if pre != nil && elem.Val >= pre.Val {
-						return false
-					}
-				} else {
-					if elem.Val%2 == 0 {
-						return false
-					}
-					if pre != nil && elem.Val <= pre.Val {
-						return false
-					}
+	quene := []*TreeNode{root}
+	level := 0
+	end := len(quene)
+	for end != 0 {
+		var pre *TreeNode
+		for i := 0; i < end; i++ {
+			elem := quene[i]
+			if level%2 == 0 {
+				if elem.Val%2 == 0 {
+					return false
 				}
-				if elem.Left != nil {
-					help.Enqueue(elem.Left)
+				if pre != nil && (elem.Val-pre.Val) <= 0 {
+					return false
 				}
-				if elem.Right != nil {
-					help.Enqueue(elem.Right)
+			} else {
+				if elem.Val%2 != 0 {
+					return false
 				}
-				pre = elem
+				if pre != nil && (elem.Val-pre.Val) >= 0 {
+					return false
+				}
 			}
-		case !help.Empty():
-			for !help.Empty() {
-				q.Enqueue(help.Dequeue())
+			pre = elem
+			if elem.Left != nil {
+				quene = append(quene, elem.Left)
 			}
-			level++
+			if elem.Right != nil {
+				quene = append(quene, elem.Right)
+			}
 		}
+		quene = quene[end:]
+		end = len(quene)
+		level++
 	}
 	return true
 }

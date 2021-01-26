@@ -1,11 +1,10 @@
 func invertTree(root *TreeNode) *TreeNode {
-	if root == nil || (root.Left == nil && root.Right == nil) {
-		return root
+	if root == nil {
+		return nil
 	}
-	ret := &TreeNode{
-		Val: root.Val,
-	}
-	ret.Left = invertTree(root.Right)
-	ret.Right = invertTree(root.Left)
-	return ret
+	left := root.Left
+	right := root.Right
+	root.Left = invertTree(right)
+	root.Right = invertTree(left)
+	return root
 }

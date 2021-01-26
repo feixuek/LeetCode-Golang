@@ -2,17 +2,19 @@ func goodNodes(root *TreeNode) int {
 	if root == nil {
 		return 0
 	}
-	return 1 + help(root.Left, root.Val) + help(root.Right, root.Val)
+	res := new(int)
+	helper(root, root.Val, res)
+	return *res
 }
 
-func help(root *TreeNode, min int) int {
+func helper(root *TreeNode, max int, res *int) {
 	if root == nil {
-		return 0
+		return
 	}
-	ret := 0
-	if root.Val >= min {
-		min = root.Val
-		ret = 1
+	if root.Val >= max {
+		(*res)++
+		max = root.Val
 	}
-	return ret + help(root.Left, min) + help(root.Right, min)
+	helper(root.Left, max, res)
+	helper(root.Right, max, res)
 }

@@ -6,7 +6,10 @@
 | --- | --- | --- |
 | [0015](Array/0015.3sum) | 3Sum | Medium |
 | [0018](Array/0018.4sum) | 4sum | Medium |
+| [0026](Array/0026.remove-duplicates-from-sorted-array) | Remove Duplicates from Sorted Array | Easy |
+| [0027](Array/0027.remove-element) | Remove Element | Easy |
 | [0053](Array/0053.maximum-subarray) | Maximum Subarray | Easy |
+| [0283](Array/0283.move-zeroes) | Move Zeroes | Easy |
 | [0509](Array/0509.fibonacci-number) | Fibonacci Number | Easy |
 | [1431](Array/1431.kids-with-the-greatest-number-of-candies) | Kids With the Greatest Number of Candies | Easy | 
 
@@ -33,17 +36,24 @@
 | [1641](Backtracking/1641.count-sorted-vowel-strings) | Count Sorted Vowel Strings | Medium | 
 | [1688](Backtracking/1688.count-of-matches-in-tournament) | Count of Matches in Tournament | Easy |
 
+## Design
+
+| 题号 | 题目  | 难度  |
+| --- | --- | --- |
+| [0146](Design/0146.lru-cache)| LRU Cache | Medium |
+
 ## DP
 
 | 题号 | 题目 | 难度 |
 | --- | --- | --- |
 | [0005](DP/0005.longest-palindromic-substring) | Longest Palindromic Substring | Medium |
+| [0053](DP/0053.maximum-subarray) | Maximum Subarray | Easy |
 | [0062](DP/0062.unique-paths) | Unique Paths | Medium |
 | [0063](DP/0063.unique-paths-ii) | Unique Paths II | Medium |
 | [0064](DP/0064.minimum-path-sum) | Minimum Path Sum | Medium |
 | [0070](DP/0070.climbing-stairs) | Climbing Stairs | Easy |
 | [0121](DP/0121.best-time-to-buy-and-sell-stock) | Best Time to Buy and Sell Stock | Easy |
-| [0198](DP/0198.house-robber) | House Robber | Easy |
+| [0198](DP/0198.house-robber) | House Robber | Medium |
 | [0213](DP/0213.house-robber-ii) | House Robber II | Medium |
 | [0300](DP/0300.longest-increasing-subsequence) | Longest Increasing Subsequence | Medium |
 | [0303](DP/0303.range-sum-query-immutable) | Range Sum Query - Immutable | Easy |
@@ -54,6 +64,7 @@
 | [0746](DP/0746.min-cost-climbing-stairs) | Min Cost Climbing Stairs | Easy |
 | [0837](DP/0837.new-21-game) | New 21 Game | Medium |
 | [0887](DP/0887.super-egg-drop) | Super Egg Drop | Hard |
+| [1025](DP/1025.divisor-game) | Divisor Game | Easy |
 | [1143](DP/1143.longest-common-subsequence) | Longest Common Subsequence | Medium |
 
 ## Greedy
@@ -107,6 +118,7 @@
 | [0350](Map/0350.intersection-of-two-arrays-ii) | Intersection of Two Arrays II | Easy |
 | [0389](Map/0389.find-the-difference) | Find the Difference | Easy |
 | [0409](Map/0409.longest-palindrome) | Longest Palindrome | Easy |
+| [0438](Map/0438.find-all-anagrams-in-a-string) | Find All Anagrams in a String | Medium |
 | [0500](Map/0500.keyboard-row) | Keyboard Row | Easy |
 | [0575](Map/0575.distribute-candies) | Distribute Candies | Easy |
 | [0599](Map/0599.minimum-index-sum-of-two-lists) | Minimum Index Sum of Two Lists | Easy |
@@ -127,6 +139,12 @@
 | 题号 | 题目 | 难度 |
 | --- | --- | --- |
 | [0933](Queue/0933.number-of-recent-calls/README.md) | Number of Recent Calls | Easy |
+
+## SlidingWindow
+
+| 题号 | 题目 | 难度 |
+| --- | --- | --- |
+| [0567](SlidingWindow/0567.permutation-in-string) | Permutation in String | Medium | 
 
 ## Stack
 
@@ -152,12 +170,14 @@
 
 | 题号 | 题目 | 难度 |
 | --- | --- | --- |
-| [0003](String/0003.longest-substring-without-repeating-characters/README.md) | Longest Substring Without Repeating Characters | Medium
+| [0003](String/0003.longest-substring-without-repeating-characters/README.md) | Longest Substring Without Repeating Characters | Medium | 
+| [0076](String/0076.minimum-window-substring) | Minimum Window Substring | Hard | 
 
 ## Tree
 
 | 题号 | 题目 | 难度 |
 | --- | --- | --- |
+| [0094](Tree/0094.binary-tree-inorder-traversal) | Binary Tree Inorder Traversal | Medium |
 | [0098](Tree/0098.validate-binary-search-tree) | Validate Binary Search Tree | Medium |
 | [0100](Tree/0100.same-tree) | Same Tree | Easy |
 | [0101](Tree/0101.symmetric-tree) | Symmetric Tree | Easy |
@@ -176,6 +196,8 @@
 | [0116](Tree/0116.populating-next-right-pointers-in-each-node) | Populating Next Right Pointers in Each Node | Medium |
 | [0117](Tree/0117.populating-next-right-pointers-in-each-node-ii) | Populating Next Right Pointers in Each Node II | Medium |
 | [0129](Tree/0129.sum-root-to-leaf-numbers) | Sum Root to Leaf Numbers | Medium |
+| [0144](Tree/0144.binary-tree-preorder-traversal) | Binary Tree Preorder Traversal | Medium |
+| [0145](Tree/0145.binary-tree-postorder-traversal) | Binary Tree Postorder Traversal | Medium |
 | [0173](Tree/0173.binary-search-tree-iterator) | Binary Search Tree Iterator | Medium |
 | [0199](Tree/0199.binary-tree-right-side-view) | Binary Tree Right Side View | Medium |
 | [0222](Tree/0222.count-complete-tree-nodes) | Count Complete Tree Nodes | Medium |

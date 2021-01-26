@@ -2,32 +2,30 @@ func maxAncestorDiff(root *TreeNode) int {
 	if root == nil {
 		return 0
 	}
-	left, right := 0, 0
-	if root.Left != nil {
-		left = maxDiff(root.Val, root.Left)
-	}
-	if root.Right != nil {
-		right = maxDiff(root.Val, root.Right)
-	}
-	return max(max(maxAncestorDiff(root.Left), maxAncestorDiff(root.Right)), max(left, right))
+	res := new(int)
+	helper(root.Left, root.Val, res)
+	helper(root.Right, root.Val, res)
+	return max(*res, max(maxAncestorDiff(root.Left), maxAncestorDiff(root.Right)))
 }
 
-func maxDiff(val int, root *TreeNode) int {
+func helper(root *TreeNode, val int, res *int) {
 	if root == nil {
-		return 0
+		return
 	}
-	return max(val-root.Val, max(maxDiff(val, root.Left), maxDiff(val, root.Right)))
+	target := root.Val - val
+	if target < 0 {
+		target *= -1
+	}
+	if target > *res {
+		*res = target
+	}
+	helper(root.Left, val, res)
+	helper(root.Right, val, res)
 }
 
 func max(x, y int) int {
-	if x < 0 {
-		x *= -1
+	if x > y {
+		return x
 	}
-	if y < 0 {
-		y *= -1
-	}
-	if x < y {
-		return y
-	}
-	return x
+	return y
 }

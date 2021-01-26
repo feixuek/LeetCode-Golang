@@ -19,10 +19,10 @@ func helper(root, pre *TreeNode, target int) {
 	helper(root.Right, root, target)
 	if root.Left == nil && root.Right == nil && root.Val == target {
 		if pre != nil {
-			if pre.Left != nil && pre.Left == root {
+			if pre.Left == root {
 				pre.Left = nil
 			}
-			if pre.Right != nil && pre.Right == root {
+			if pre.Right == root {
 				pre.Right = nil
 			}
 		}

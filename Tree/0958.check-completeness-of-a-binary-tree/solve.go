@@ -1,46 +1,25 @@
-type Queue struct {
-	data []*TreeNode
-}
-
-func (q *Queue) Enqueue(elem *TreeNode) {
-	q.data = append(q.data, elem)
-}
-
-func (q *Queue) Dequeue() *TreeNode {
-	if q.Empty() {
-		return nil
-	}
-	elem := q.data[0]
-	q.data = q.data[1:]
-	return elem
-}
-
-func (q *Queue) Empty() bool {
-	return len(q.data) == 0
-}
-
-func (q *Queue) Len() int {
-	return len(q.data)
-}
-
 func isCompleteTree(root *TreeNode) bool {
-	q := new(Queue)
-	q.Enqueue(root)
-	flag := false
-	for !q.Empty() {
-		size := q.Len()
-		for i := 0; i < size; i++ {
-			elem := q.Dequeue()
+	if root == nil {
+		return true
+	}
+	quene := []*TreeNode{root}
+	end := len(quene)
+	lastRow := false
+	for end != 0 {
+		for i := 0; i < end; i++ {
+			elem := quene[i]
 			if elem != nil {
-				if flag {
+				if lastRow {
 					return false
 				}
-				q.Enqueue(elem.Left)
-				q.Enqueue(elem.Right)
+				quene = append(quene, elem.Left)
+				quene = append(quene, elem.Right)
 			} else {
-				flag = true
+				lastRow = true
 			}
 		}
+		quene = quene[end:]
+		end = len(quene)
 	}
 	return true
 }

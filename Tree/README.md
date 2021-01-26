@@ -1,5 +1,6 @@
 | 题号 | 题目 | 难度 |
 | --- | --- | --- |
+| [0094](0094.binary-tree-inorder-traversal) | Binary Tree Inorder Traversal | Medium |
 | [0098](0098.validate-binary-search-tree) | Validate Binary Search Tree | Medium |
 | [0100](0100.same-tree) | Same Tree | Easy |
 | [0101](0101.symmetric-tree) | Symmetric Tree | Easy |
@@ -18,6 +19,8 @@
 | [0116](0116.populating-next-right-pointers-in-each-node) | Populating Next Right Pointers in Each Node | Medium |
 | [0117](0117.populating-next-right-pointers-in-each-node-ii) | Populating Next Right Pointers in Each Node II | Medium |
 | [0129](0129.sum-root-to-leaf-numbers) | Sum Root to Leaf Numbers | Medium |
+| [0144](0144.binary-tree-preorder-traversal) | Binary Tree Preorder Traversal | Medium |
+| [0145](0145.binary-tree-postorder-traversal) | Binary Tree Postorder Traversal | Medium |
 | [0173](0173.binary-search-tree-iterator) | Binary Search Tree Iterator | Medium |
 | [0199](0199.binary-tree-right-side-view) | Binary Tree Right Side View | Medium |
 | [0222](0222.count-complete-tree-nodes) | Count Complete Tree Nodes | Medium |

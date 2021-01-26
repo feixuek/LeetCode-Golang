@@ -1,97 +1,42 @@
-type Stack struct {
-	Data []*TreeNode
-}
-
-func (s *Stack) Push(elem *TreeNode) {
-	s.Data = append(s.Data, elem)
-}
-
-func (s *Stack) Pop() (elem *TreeNode) {
-	if s.Empty() {
-		return
-	}
-	elem = s.Data[len(s.Data)-1]
-	s.Data = s.Data[:len(s.Data)-1]
-	return
-}
-
-func (s *Stack) Top() (elem *TreeNode) {
-	if s.Empty() {
-		return
-	}
-	elem = s.Data[len(s.Data)-1]
-	return
-}
-
-func (s *Stack) Empty() bool {
-	return len(s.Data) == 0
-}
-
-type Queue struct {
-	Data []*TreeNode
-}
-
-func (q *Queue) Push(elem *TreeNode) {
-	q.Data = append(q.Data, elem)
-}
-
-func (q *Queue) Pop() (elem *TreeNode) {
-	if q.Empty() {
-		return
-	}
-	elem = q.Data[0]
-	q.Data = q.Data[1:]
-	return
-}
-
-func (q *Queue) Peek() (elem *TreeNode) {
-	if q.Empty() {
-		return
-	}
-	elem = q.Data[0]
-	return
-}
-
-func (q *Queue) Empty() bool {
-	return len(q.Data) == 0
-}
-
 func zigzagLevelOrder(root *TreeNode) [][]int {
 	if root == nil {
 		return nil
 	}
-	queue, helper := new(Queue), new(Queue)
-	stack := new(Stack)
-	queue.Push(root)
-	var res [][]int
+	res := make([][]int, 0)
+	quene := []*TreeNode{root}
+	end := len(quene)
 	level := 1
-	for !queue.Empty() || !helper.Empty() {
-		if !queue.Empty() {
-			for !queue.Empty() {
-				helper.Push(queue.Pop())
+	for end != 0 {
+		data := []int{}
+		if level%2 == 0 {
+			for i := end - 1; i >= 0; i-- {
+				data = append(data, quene[i].Val)
 			}
-		} else {
-			tmp := []int{}
-			for !helper.Empty() {
-				elem := helper.Pop()
-				if level%2 == 0 {
-					stack.Push(elem)
-				} else {
-					tmp = append(tmp, elem.Val)
-				}
+			for i := 0; i < end; i++ {
+				elem := quene[i]
 				if elem.Left != nil {
-					queue.Push(elem.Left)
+					quene = append(quene, elem.Left)
 				}
 				if elem.Right != nil {
-					queue.Push(elem.Right)
+					quene = append(quene, elem.Right)
 				}
 			}
-			level++
-			for !stack.Empty() {
-				tmp = append(tmp, stack.Pop().Val)
+		} else {
+			for i := 0; i < end; i++ {
+				elem := quene[i]
+				data = append(data, elem.Val)
+				if elem.Left != nil {
+					quene = append(quene, elem.Left)
+				}
+				if elem.Right != nil {
+					quene = append(quene, elem.Right)
+				}
 			}
-			res = append(res, tmp)
 		}
+		res = append(res, data)
+		quene = quene[end:]
+		end = len(quene)
+		level++
 	}
 	return res
 }

@@ -1,50 +1,25 @@
-type Queue struct {
-	Data []*TreeNode
-}
-
-func (q *Queue) Empty() bool {
-	return len(q.Data) == 0
-}
-
-func (q *Queue) Push(node *TreeNode) {
-	q.Data = append(q.Data, node)
-}
-
-func (q *Queue) Pop() (node *TreeNode) {
-	if !q.Empty() {
-		node = q.Data[0]
-		q.Data = q.Data[1:]
-		return
-	}
-	return nil
-}
-
 func levelOrder(root *TreeNode) [][]int {
 	if root == nil {
 		return nil
 	}
-	queue, helper := new(Queue), new(Queue)
-	var res [][]int
-	queue.Push(root)
-	for !queue.Empty() || !helper.Empty() {
-		if !queue.Empty() {
-			for !queue.Empty() {
-				helper.Push(queue.Pop())
+	quene := []*TreeNode{root}
+	res := make([][]int, 0)
+	end := len(quene)
+	for end != 0 {
+		data := []int{}
+		for i := 0; i < end; i++ {
+			elem := quene[i]
+			data = append(data, elem.Val)
+			if elem.Left != nil {
+				quene = append(quene, elem.Left)
 			}
-		} else {
-			tmp := []int{}
-			for !helper.Empty() {
-				elem := helper.Pop()
-				tmp = append(tmp, elem.Val)
-				if elem.Left != nil {
-					queue.Push(elem.Left)
-				}
-				if elem.Right != nil {
-					queue.Push(elem.Right)
-				}
+			if elem.Right != nil {
+				quene = append(quene, elem.Right)
 			}
-			res = append(res, tmp)
 		}
+		res = append(res, data)
+		quene = quene[end:]
+		end = len(quene)
 	}
 	return res
 }

@@ -2,30 +2,34 @@ func delNodes(root *TreeNode, to_delete []int) []*TreeNode {
 	if root == nil {
 		return nil
 	}
-	filter := make(map[int]struct{})
+	filter := make(map[int]bool)
 	for i := 0; i < len(to_delete); i++ {
-		filter[to_delete[i]] = struct{}{}
+		filter[to_delete[i]] = true
 	}
-	res := make([]*TreeNode, 0)
-	find(root, filter, &res, true)
+	res := []*TreeNode{}
+	helper(root, nil, filter, true, &res)
 	return res
 }
 
-func find(root *TreeNode, filter map[int]struct{}, res *[]*TreeNode, isRoot bool) *TreeNode {
+func helper(root, pre *TreeNode, filter map[int]bool, isRoot bool, res *[]*TreeNode) {
 	if root == nil {
-		return nil
+		return
 	}
-	needDelete := false
-	if _, ok := filter[root.Val]; ok {
-		needDelete = true
+	ok := filter[root.Val]
+	if ok {
+		if pre != nil {
+			if pre.Left == root {
+				pre.Left = nil
+			}
+			if pre.Right == root {
+				pre.Right = nil
+			}
+		}
+	} else {
+		if isRoot {
+			*res = append(*res, root)
+		}
 	}
-	if !needDelete && isRoot {
-		(*res) = append(*res, root)
-	}
-	root.Left = find(root.Left, filter, res, needDelete)
-	root.Right = find(root.Right, filter, res, needDelete)
-	if needDelete {
-		return nil
-	}
-	return root
+	helper(root.Left, root, filter, ok, res)
+	helper(root.Right, root, filter, ok, res)
 }

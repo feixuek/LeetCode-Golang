@@ -1,13 +1,12 @@
 func isSubsequence(s string, t string) bool {
-	i, j := 0, 0
-	for j < len(t) && i < len(s) {
-		switch {
-		case s[i] == t[j]:
-			i++
-			j++
-		default:
-			j++
+	start := 0
+	for i := 0; i < len(t); i++ {
+		if start >= len(s) {
+			return true
+		}
+		if t[i] == s[start] {
+			start++
 		}
 	}
-	return i == len(s)
+	return start == len(s)
 }

@@ -1,10 +1,15 @@
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
-	for ((root.Val - p.Val) * (root.Val - q.Val)) > 0 {
-		if p.Val < root.Val {
-			root = root.Left
-		} else {
-			root = root.Right
-		}
+	if root == nil {
+		return nil
 	}
-	return root
+	if root.Val >= p.Val && root.Val <= q.Val {
+		return root
+	}
+	if root.Val <= p.Val && root.Val >= q.Val {
+		return root
+	}
+	if root.Val < p.Val && root.Val < q.Val {
+		return lowestCommonAncestor(root.Right, p, q)
+	}
+	return lowestCommonAncestor(root.Left, p, q)
 }

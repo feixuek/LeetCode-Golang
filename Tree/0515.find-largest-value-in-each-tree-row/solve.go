@@ -1,58 +1,27 @@
-type Queue struct {
-	Data []*TreeNode
-}
-
-func (q *Queue) Push(elem *TreeNode) {
-	q.Data = append(q.Data, elem)
-}
-
-func (q *Queue) Pop() (elem *TreeNode) {
-	if q.Empty() {
-		return
-	}
-	elem = q.Data[0]
-	q.Data = q.Data[1:]
-	return
-}
-
-func (q *Queue) Peek() (elem *TreeNode) {
-	if q.Empty() {
-		return
-	}
-	elem = q.Data[0]
-	return
-}
-
-func (q *Queue) Empty() bool {
-	return len(q.Data) == 0
-}
-
 func largestValues(root *TreeNode) []int {
 	if root == nil {
 		return nil
 	}
-	queue, helper := new(Queue), new(Queue)
-	queue.Push(root)
-	var res []int
-	for !queue.Empty() || !helper.Empty() {
-		if !queue.Empty() {
-			helper.Push(queue.Pop())
-		} else {
-			tmp := -1 << 31
-			for !helper.Empty() {
-				elem := helper.Pop()
-				if elem.Val > tmp {
-					tmp = elem.Val
-				}
-				if elem.Left != nil {
-					queue.Push(elem.Left)
-				}
-				if elem.Right != nil {
-					queue.Push(elem.Right)
-				}
+	quene := []*TreeNode{root}
+	end := len(quene)
+	res := []int{}
+	for end != 0 {
+		max := -(1 << 31)
+		for i := 0; i < end; i++ {
+			elem := quene[i]
+			if elem.Val > max {
+				max = elem.Val
 			}
-			res = append(res, tmp)
+			if elem.Left != nil {
+				quene = append(quene, elem.Left)
+			}
+			if elem.Right != nil {
+				quene = append(quene, elem.Right)
+			}
 		}
+		res = append(res, max)
+		quene = quene[end:]
+		end = len(quene)
 	}
 	return res
 }

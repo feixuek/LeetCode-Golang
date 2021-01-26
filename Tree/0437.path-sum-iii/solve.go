@@ -2,16 +2,19 @@ func pathSum(root *TreeNode, sum int) int {
 	if root == nil {
 		return 0
 	}
-	return helper(root, sum) + pathSum(root.Left, sum) + pathSum(root.Right, sum)
+	res := new(int)
+	helper(root, sum, res)
+	return *res + pathSum(root.Left, sum) + pathSum(root.Right, sum)
 }
 
-func helper(root *TreeNode, sum int) int {
+func helper(root *TreeNode, sum int, res *int) {
 	if root == nil {
-		return 0
+		return
 	}
-	ret := 0
-	if root.Val == sum {
-		ret = 1
+	sum -= root.Val
+	if sum == 0 {
+		(*res)++
 	}
-	return ret + helper(root.Left, sum-root.Val) + helper(root.Right, sum-root.Val)
+	helper(root.Left, sum, res)
+	helper(root.Right, sum, res)
 }
